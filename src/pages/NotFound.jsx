@@ -14,8 +14,8 @@ export default function NotFound() {
         <h1>404</h1>
         <h2>This page is nowhere to be found.</h2>
         <p>
-          Looks like this little corner of your space doesn't exist.
-          Maybe the address is incorrect, or the page has moved.
+          Looks like this little corner of your space doesn't exist. Maybe the
+          address is incorrect, or the page has moved.
         </p>
         <div className="not-found-actions">
           <button type="button" onClick={() => navigate("/dashboard")}>

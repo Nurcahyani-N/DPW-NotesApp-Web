@@ -70,7 +70,7 @@ export default function App() {
         </Routes>
         {!isFormPage && (
           <footer className="app-footer">
-            Made with <span>♥</span> · NoteSpace
+            <span>♥</span> Nurcahyani | 25071104584 | TI-C <span>♥</span>
           </footer>
         )}
       </main>

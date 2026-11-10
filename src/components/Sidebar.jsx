@@ -7,7 +7,7 @@ import {
   Trash2,
   X,
   CircleHelp,
-  Flower
+  Flower,
 } from "lucide-react";
 import NoteCard from "./NoteCard";
 
@@ -71,7 +71,9 @@ export default function Sidebar({ open, onClose }) {
           <h3>Make room for good thoughts.</h3>
           <p>A quiet corner for everything worth remembering.</p>
           <span className="collection-line" />
-          <span className="collection-number">YOUR SUPER ULTRA NUMBER 1 SPACE</span>
+          <span className="collection-number">
+            YOUR SUPER ULTRA NUMBER 1 SPACE
+          </span>
         </div>
 
         <div className="sidebar-bottom">

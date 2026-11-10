@@ -1866,7 +1866,6 @@
   object-fit: cover;
 }
 
-
 .not-found-page {
   min-height: 75vh;
   display: flex;
@@ -1887,12 +1886,12 @@
   display: grid;
   place-items: center;
   border-radius: 50%;
-  color: #AB482D;
-  background: #F9C09E;
+  color: #ab482d;
+  background: #f9c09e;
 }
 
 .not-found-label {
-  color: #8A8635;
+  color: #8a8635;
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -1900,18 +1899,22 @@
 
 .not-found-content h1 {
   margin: 12px 0 0;
-  color: #6A1F3A;
-  font: 600 100px/1 'Playfair Display', serif;
+  color: #6a1f3a;
+  font:
+    600 100px/1 "Playfair Display",
+    serif;
 }
 
 .not-found-content h2 {
   margin: 15px 0 10px;
   color: #302923;
-  font: 600 25px 'Playfair Display', serif;
+  font:
+    600 25px "Playfair Display",
+    serif;
 }
 
 .not-found-content p {
-  color: #87796B;
+  color: #87796b;
   font-size: 12px;
   line-height: 1.8;
 }
@@ -1931,25 +1934,24 @@
   padding: 12px 17px;
   border: 0;
   border-radius: 7px;
-  color: #FFF8ED;
-  background: #6A1F3A;
+  color: #fff8ed;
+  background: #6a1f3a;
   font-size: 11px;
   cursor: pointer;
 }
 
 .not-found-actions .not-found-back {
-  color: #6A1F3A;
-  background: #F1E5D1;
+  color: #6a1f3a;
+  background: #f1e5d1;
 }
 
 .not-found-footer {
   display: block;
   margin-top: 55px;
-  color: #A99A89;
+  color: #a99a89;
   font-size: 8px;
   letter-spacing: 1.5px;
 }
-
 
 /* Custom 404 page */
 .not-found-page {
@@ -1960,45 +1962,82 @@
   padding: 35px 20px;
   text-align: center;
 }
-.not-found-content { width: 100%; max-width: 470px; }
+.not-found-content {
+  width: 100%;
+  max-width: 470px;
+}
 .not-found-icon {
-  width: 64px; height: 64px; margin: 0 auto 20px;
-  display: grid; place-items: center; border-radius: 50%;
-  color: #AB482D; background: #F9C09E;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #ab482d;
+  background: #f9c09e;
 }
 .not-found-label {
-  color: #8A8635; font-size: 9px; font-weight: 700; letter-spacing: 2px;
+  color: #8a8635;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 .not-found-content h1 {
-  margin: 12px 0 0; color: #6A1F3A;
-  font: 600 clamp(76px, 12vw, 100px)/1 'Playfair Display', serif;
+  margin: 12px 0 0;
+  color: #6a1f3a;
+  font:
+    600 clamp(76px, 12vw, 100px)/1 "Playfair Display",
+    serif;
 }
 .not-found-content h2 {
-  margin: 15px 0 10px; color: #302923;
-  font: 600 25px 'Playfair Display', serif;
+  margin: 15px 0 10px;
+  color: #302923;
+  font:
+    600 25px "Playfair Display",
+    serif;
 }
 .not-found-content p {
-  max-width: 390px; margin: 0 auto; color: #87796B;
-  font-size: 12px; line-height: 1.8;
+  max-width: 390px;
+  margin: 0 auto;
+  color: #87796b;
+  font-size: 12px;
+  line-height: 1.8;
 }
 .not-found-actions {
-  display: flex; justify-content: center; flex-wrap: wrap;
-  gap: 10px; margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 25px;
 }
 .not-found-actions button {
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 12px 17px; border: 0; border-radius: 7px;
-  color: #FFF8ED; background: #6A1F3A; font-size: 11px;
-  cursor: pointer; transition: .2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 17px;
+  border: 0;
+  border-radius: 7px;
+  color: #fff8ed;
+  background: #6a1f3a;
+  font-size: 11px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 .not-found-actions button:hover {
-  transform: translateY(-2px); background: #AB482D;
+  transform: translateY(-2px);
+  background: #ab482d;
 }
 .not-found-actions .not-found-back {
-  color: #6A1F3A; background: #F1E5D1;
+  color: #6a1f3a;
+  background: #f1e5d1;
 }
-.not-found-actions .not-found-back:hover { background: #E8D7BF; }
+.not-found-actions .not-found-back:hover {
+  background: #e8d7bf;
+}
 .not-found-footer {
-  display: block; margin-top: 48px; color: #A99A89;
-  font-size: 8px; letter-spacing: 1.5px;
+  display: block;
+  margin-top: 48px;
+  color: #a99a89;
+  font-size: 8px;
+  letter-spacing: 1.5px;
 }
