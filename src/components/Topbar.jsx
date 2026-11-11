@@ -29,7 +29,7 @@ export default function Topbar({ onMenu }) {
         <Menu size={21} />
       </button>
       <div className="topbar-heading">
-        <span className="topbar-overline">HELLO!!! YOUR SPACE IS READY</span>
+        <span className="topbar-overline">HI, DEAR! YOUR SPACE IS READY</span>
         <h1>{title}</h1>
         <p>{subtitle}</p>
       </div>

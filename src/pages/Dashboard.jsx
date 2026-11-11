@@ -137,7 +137,7 @@ export default function Dashboard({ notes, actions }) {
           </div>
           <span className="hero-stamp">N° 01</span>
         </div>
-        <div className="hero-index">A PERSONAL ARCHIVE — EST. TODAY</div>
+        <div className="hero-index">A PERSONAL ARCHIVE — EST. 2026</div>
       </section>
 
       <section className="stats-grid">
@@ -160,7 +160,7 @@ export default function Dashboard({ notes, actions }) {
         <section className="recent-section">
           <div className="section-heading">
             <div>
-              <span className="eyebrow">THE LATEST THOUGHTS</span>
+              <span className="eyebrow">YOUR LATEST THOUGHTS</span>
               <h2>Recently collected</h2>
               <p className="recent-subtitle">
                 Your four latest moments, all in one place.
